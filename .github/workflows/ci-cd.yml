@@ -5,7 +5,7 @@ on:
       - main
 
 permissions:
-  packages: read
+  packages: write
 
 jobs:
   test:
