@@ -20,7 +20,7 @@ func TestPingHandler(t *testing.T) {
 	}
 
 	body := w.Body.String()
-	expected := "ping"
+	expected := "pong"
 
 	if body != expected {
 		t.Errorf("expected body %q; got %q", expected, body)
