@@ -1,4 +1,4 @@
-FROM go:1.25-alpine
+FROM go:1.24-alpine
 
 WORKDIR /app
 
